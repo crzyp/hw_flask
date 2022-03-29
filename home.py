@@ -12,8 +12,8 @@ def home():
     return ('''
     <html>
         <body>
-            <h1>Welcome ''' + name + '''</h1>
-            <p><a href="https://www.google.com">not google</a></p>
+            <h1>Welcome ''' + name + '''!</h1>
+            <p><a href="www.google.com">not google</a></p>
             <ul>''' + list_items + '''
             </ul>
        </body>
